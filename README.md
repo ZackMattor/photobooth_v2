@@ -7,3 +7,5 @@
  - `npm start`
 
 All captured photos will land in a `captures` directory in the root of the project.
+
+Any DSLR that support live preview and capturing images in gphoto2 should work with this app.
