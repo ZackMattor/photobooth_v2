@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <script src="./index.js"></script>
+<style>
+body {
+  text-align: center;
+  font-family: 'Mountains of Christmas', cursive;
+
+  background-image: url('./background.jpg');
+  color: #FF1414;
+}
+
+h1 {
+  margin: 0 0 11px 0;
+  font-size: 80px;
+  text-shadow: -2px 2px 2px #74d680;
+}
+
+#myimage, #start {
+  width: 70%;
+}
+
+#myimage {
+  display: none;
+}
+
+.absolute-wrap {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.countdown {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  font-size: 250px;
+}
+
+.countdown p {
+  margin: 0;
+}
+</style>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
+  </head>
+  <body>
+    <h1>Holiday Photo Booth</h1>
+
+    <div class="absolute-wrap">
+      <div class="countdown">
+        <p>5</p>
+      </div>
+    </div>
+    <img id="start" src="./start.jpeg" />
+    <img id="myimage" src="http://placekitten.com/2992/2000" />
+  </body>
+</html>

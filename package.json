@@ -1,0 +1,19 @@
+{
+  "name": "photozv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "pipe2jpeg": "^0.3.0"
+  }
+}
