@@ -5,3 +5,5 @@
  - Install [gphoto2](http://www.gphoto.org/)
  - `npm install`
  - `npm start`
+
+All captured photos will land in a `captures` directory in the root of the project.
